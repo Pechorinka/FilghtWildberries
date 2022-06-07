@@ -166,7 +166,6 @@ class FlightCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 17, weight: .thin)
         label.textColor = .black
-  //      label.backgroundColor = .systemPurple
         label.isUserInteractionEnabled = false
         return label
     } ()

@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  Wildberries
 //
-//  Created by Alexey Sidoryuk on 04.06.2022.
+//  Created by Tatyana Sidoryuk on 04.06.2022.
 //
 
 import Foundation

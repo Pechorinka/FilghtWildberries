@@ -64,11 +64,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 220
     }
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        // 1
         let headerView = UIView()
-        // 2
         headerView.backgroundColor = view.backgroundColor
-        // 3
         return headerView
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -94,7 +91,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let imageView  = UIImageView()
         imageView.image = UIImage(named: "logo_wildberries_gradient.png")
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        //imageView.contentMode = .scaleAspectFill
         return imageView
     }()
     
