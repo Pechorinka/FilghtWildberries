@@ -2,11 +2,10 @@
 //  AppDelegate.swift
 //  Wildberries
 //
-//  Created by Alexey Sidoryuk on 02.06.2022.
+//  Created by Tatyana Sidoryuk on 02.06.2022.
 //
 
 import UIKit
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

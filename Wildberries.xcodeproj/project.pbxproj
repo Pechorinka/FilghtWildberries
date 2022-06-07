@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91733084284DC54C0019FB60 /* logo_wildberries_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 91733083284DC54C0019FB60 /* logo_wildberries_gradient.png */; };
 		91C0E802284810CE00FBEF8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0E801284810CE00FBEF8D /* AppDelegate.swift */; };
 		91C0E804284810CE00FBEF8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0E803284810CE00FBEF8D /* SceneDelegate.swift */; };
 		91C0E806284810CE00FBEF8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0E805284810CE00FBEF8D /* ViewController.swift */; };
-		91C0E809284810CE00FBEF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C0E807284810CE00FBEF8D /* Main.storyboard */; };
 		91C0E80B284810D000FBEF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C0E80A284810D000FBEF8D /* Assets.xcassets */; };
 		91C0E80E284810D000FBEF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C0E80C284810D000FBEF8D /* LaunchScreen.storyboard */; };
+		91C0E816284815E100FBEF8D /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0E815284815E100FBEF8D /* Flight.swift */; };
+		91C0E81A2848C2A000FBEF8D /* FlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0E8192848C2A000FBEF8D /* FlightCell.swift */; };
+		91C0E81E284BD67600FBEF8D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0E81D284BD67600FBEF8D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91733083284DC54C0019FB60 /* logo_wildberries_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_wildberries_gradient.png; sourceTree = "<group>"; };
 		91C0E7FE284810CE00FBEF8D /* Wildberries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wildberries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C0E801284810CE00FBEF8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91C0E803284810CE00FBEF8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		91C0E805284810CE00FBEF8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91C0E808284810CE00FBEF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91C0E80A284810D000FBEF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91C0E80D284810D000FBEF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91C0E80F284810D000FBEF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C0E815284815E100FBEF8D /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		91C0E8192848C2A000FBEF8D /* FlightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCell.swift; sourceTree = "<group>"; };
+		91C0E81D284BD67600FBEF8D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		91C0E800284810CE00FBEF8D /* Wildberries */ = {
 			isa = PBXGroup;
 			children = (
+				91733083284DC54C0019FB60 /* logo_wildberries_gradient.png */,
 				91C0E801284810CE00FBEF8D /* AppDelegate.swift */,
 				91C0E803284810CE00FBEF8D /* SceneDelegate.swift */,
 				91C0E805284810CE00FBEF8D /* ViewController.swift */,
-				91C0E807284810CE00FBEF8D /* Main.storyboard */,
 				91C0E80A284810D000FBEF8D /* Assets.xcassets */,
 				91C0E80C284810D000FBEF8D /* LaunchScreen.storyboard */,
 				91C0E80F284810D000FBEF8D /* Info.plist */,
+				91C0E815284815E100FBEF8D /* Flight.swift */,
+				91C0E8192848C2A000FBEF8D /* FlightCell.swift */,
+				91C0E81D284BD67600FBEF8D /* SecondViewController.swift */,
 			);
 			path = Wildberries;
 			sourceTree = "<group>";
@@ -126,8 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91C0E80E284810D000FBEF8D /* LaunchScreen.storyboard in Resources */,
+				91733084284DC54C0019FB60 /* logo_wildberries_gradient.png in Resources */,
 				91C0E80B284810D000FBEF8D /* Assets.xcassets in Resources */,
-				91C0E809284810CE00FBEF8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +147,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C0E81E284BD67600FBEF8D /* SecondViewController.swift in Sources */,
+				91C0E81A2848C2A000FBEF8D /* FlightCell.swift in Sources */,
 				91C0E806284810CE00FBEF8D /* ViewController.swift in Sources */,
 				91C0E802284810CE00FBEF8D /* AppDelegate.swift in Sources */,
 				91C0E804284810CE00FBEF8D /* SceneDelegate.swift in Sources */,
+				91C0E816284815E100FBEF8D /* Flight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		91C0E807284810CE00FBEF8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91C0E808284810CE00FBEF8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		91C0E80C284810D000FBEF8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +297,8 @@
 				INFOPLIST_FILE = Wildberries/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +325,8 @@
 				INFOPLIST_FILE = Wildberries/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
